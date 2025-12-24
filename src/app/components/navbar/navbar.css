@@ -1,0 +1,21 @@
+
+/* Grid layout para el navbar */
+.navbar-grid {
+	display: grid;
+	grid-template-columns: 2fr 8fr 2fr;
+	align-items: center;
+	gap: 1rem;
+    padding-top: 0.5em;
+    height: 2.5rem;
+	width: 100%;
+}
+
+.left {
+	justify-self: start;
+}
+.center {
+	justify-self: center;
+}
+.right {
+	justify-self: end;
+}

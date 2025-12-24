@@ -1,0 +1,22 @@
+<nav class="navbar-grid">
+  <div class="center">
+    <mat-icon (click)="toggleSidebar()" aria-hidden="false" aria-label="Example home icon" fontIcon="menu"></mat-icon>
+  </div>
+
+  <div class="center">
+    <img
+      src="https://static-mh.content.disney.io/matterhorn/assets/logos/disney_logo_dark-baa807690db7.png"
+      alt="Disney"
+      height="34"
+      width="83"
+    >
+  </div>
+
+  <div class="center">
+    <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="search"></mat-icon>
+  </div>
+</nav>
+
+@if (sidebarOpen()) {
+    <app-sidebar [open]="sidebarOpen()"></app-sidebar>
+}
