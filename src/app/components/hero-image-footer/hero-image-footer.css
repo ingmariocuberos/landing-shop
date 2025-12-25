@@ -1,0 +1,25 @@
+.hero-image-footer-container {
+    position: absolute;
+    top: calc(100dvh - 25rem);
+    width: 100%;
+    height: 25rem;
+    background: linear-gradient(
+        to top,
+        #000 0%,
+        rgba(0, 0, 0, 0.928) 40%,
+        rgba(0, 0, 0, 0.498) 70%,
+        transparent 100%
+    );
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}

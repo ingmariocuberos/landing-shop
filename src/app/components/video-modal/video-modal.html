@@ -1,0 +1,21 @@
+<div class="video-poster" (click)="playTrailer()">
+  <img
+    src="https://img.youtube.com/vi/VIDEO_ID/hqdefault.jpg"
+    alt="Zootopia trailer"
+  />
+  <button class="play-button" aria-label="Play trailer">
+    ▶
+  </button>
+</div>
+
+@if (showTrailer()) {
+  <iframe
+    width="100%"
+    height="100%"
+    src="https://www.youtube.com/embed/VIDEO_ID?autoplay=1"
+    frameborder="0"
+    allow="autoplay; encrypted-media"
+    allowfullscreen
+  ></iframe>
+}
+

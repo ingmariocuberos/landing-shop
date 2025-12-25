@@ -1,0 +1,5 @@
+.hero-home-image {
+    width: 100dvw;
+    height: calc(100dvh - 3rem);
+    object-fit: cover;
+}
